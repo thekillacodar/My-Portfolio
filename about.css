@@ -1,0 +1,60 @@
+div{
+    align-items: center;
+    padding: 30PX;
+    text-wrap: 20;
+    justify-content: center;
+    cursor: grab;
+}
+.about{
+    padding: 15%;
+    padding-top: 10%;
+    contain: inherit;
+           
+}
+h1,p{
+    padding: 20px;
+    font-weight: 600;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 40PX;
+    font-weight: 600;
+    text-align: center;
+    animation: topSideAni 1.5s ease forwards;
+   
+}
+
+p{
+    text-transform: inherit;
+    align-self: auto;
+    animation: bottomSideAni 2.5s ease forwards;
+    text-align: justify;
+    font-size:15px;
+}
+
+@keyframes bottomSideAni {
+        0% {
+            transform: translateY(100%);
+            }
+        100% {
+            transform: translateY(0%);
+            }
+}
+
+    .myElement {
+        animation: bottomSideAni 1s ease forwards;
+    }
+
+@media screen and (max-width: 1024px) {
+h1 {
+padding: 0 4.4rem;
+}
+
+p{
+
+margin-top: 1rem;
+
+}
+
+}

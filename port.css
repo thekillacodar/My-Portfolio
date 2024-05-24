@@ -1,0 +1,51 @@
+.skills{
+    width: 60vw;
+    background-color: #e4a8dfb7;
+    border: none;
+  } 
+  .about-skill {
+  text-align: justify;
+}
+
+.about-skill h1 {
+  margin-top: 0;
+}
+
+.about-skill ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-skill li {
+  margin-bottom: 10px;
+}
+
+.about-skill li strong {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+ .skills {
+    width: 90%;
+  }
+ .skillimg {
+    width: 100%;
+    padding: 2%;
+  }
+ .about-skill {
+    width: 100%;
+    padding: 2%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ .skills {
+    width: 70%;
+  }
+ .skillimg {
+    width: 30%;
+  }
+ .about-skill {
+    width: 70%;
+  }
+}

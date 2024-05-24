@@ -1,0 +1,148 @@
+
+
+            div{
+                align-items: center;
+                padding: 10PX;
+                text-wrap: 20;
+                justify-content: center;
+                cursor: grab;
+            }
+            h1,p{
+                text-align: justify;
+                font-weight: 600;
+            
+                
+            
+            }
+
+            h1{
+                text-transform: uppercase;
+                font-size: 40PX;
+                font-weight: 600;
+                text-align: center;
+                animation: topSideAni 1.5s ease forwards;
+               
+            }
+
+            p{
+                text-transform: inherit;
+                align-self: auto;
+                animation: bottomSideAni 2.5s ease forwards;
+            }
+
+            @keyframes bottomSideAni {
+                    0% {
+                        transform: translateY(100%);
+                        }
+                    100% {
+                        transform: translateY(0%);
+                        }
+            }
+
+                .myElement {
+                    animation: bottomSideAni 1s ease forwards;
+                }
+
+            @media screen and (max-width: 1024px) {
+
+        
+    }
+
+/*div class about*/
+.about{
+    border-radius: 50px;
+    background-color: #52489C; 
+    height: 100%;
+
+           
+}
+/* Left contact page */
+.form-horizontal {
+    /*float: left;*/
+    max-width: 400px;
+    font-family: 'Lato';
+    font-weight: 400;
+  }
+  
+  .form-control, 
+  textarea {
+    max-width: 400px;
+    background-color:inherit;
+    color: inherit;
+    letter-spacing: 1px;
+  }
+  
+  .send-button {
+    margin-top: 15px;
+    height: 40px;
+    width: 400px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+  }
+  
+  .alt-send-button {
+    width: 388px;
+    height: auto;
+    transition: all .2s ease-in-out;
+  }
+  
+  .send-text {
+    display: block;
+    margin-top: 10px;
+    font: 700 12px 'Lato', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  .alt-send-button:hover {
+    transform: translate3d(0px, -29px, 0px);
+  }
+  
+
+
+/* Location, Phone, Email Section */
+.contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+  }
+  
+  .list-item {
+    line-height: 4;
+    color: #aaa;
+  }
+  
+  .contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: wheat;
+  }
+  
+  .place {
+    margin-left: 62px;
+    font-weight: 1000;
+    
+  }
+  
+  .phone {
+    margin-left: 56px;
+    font-weight: 1000;
+  }
+  
+  .gmail {
+    margin-left: 53px;
+    font-weight: 1000;
+  }
+  
+  
+  
+  .contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+  .contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
