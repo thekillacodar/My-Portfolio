@@ -1,3 +1,3 @@
 # My-Portfolio
 This is my portfolio
-A little about 
+A little about me
