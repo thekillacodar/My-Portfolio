@@ -2,4 +2,4 @@
 This is my portfolio
 A little about me
 omo ehh
-it has been a 
+it has been a journey
